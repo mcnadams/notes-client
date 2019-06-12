@@ -4,12 +4,12 @@ import Note from './Note';
 
 function Notes({ notes }) {
   const noteList = notes.map(note => (
-    <li key={note.id}>
+    <li key={note._id}>
       <Note note={note} />
     </li>
   ));
 
-  return(
+  return (
     <ul>
       {noteList}
     </ul>

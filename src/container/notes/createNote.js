@@ -29,7 +29,7 @@ class CreateNote extends PureComponent {
     const { title, body } = this.state;
     return (
       <NoteForm
-        onSumbit={this.handleSubmit}
+        onSubmit={this.handleSubmit}
         onChange={this.handleChange}
         title={title}
         body={body}
